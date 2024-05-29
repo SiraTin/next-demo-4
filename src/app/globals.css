@@ -31,3 +31,22 @@ body {
     text-wrap: balance;
   }
 }
+
+
+@layer base {
+  @font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/assets/fonts/Barlow/Barlow-Regular.ttf) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/assets/fonts/Bellefair/Bellefair-Regular.ttf') format('woff2');
+  }
+}

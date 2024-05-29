@@ -1,0 +1,31 @@
+.swiper-pagination {
+	position: relative;
+	width: 100% !important;
+	left: auto !important;
+	margin: 0;
+}
+.swiper-pagination-bullet {
+	padding: 1px 6px;
+	border-radius: 0;
+	opacity: 1;
+    font-size: 0.5rem;
+    border-radius: 50%;
+    background-color: #979797;
+    margin: 0 0.5rem;
+	cursor: pointer;
+}
+.swiper-pagination-bullet-active {
+	color:#fff;
+	background: #fff;
+}
+
+.reverse{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+@media only screen and (min-width: 1024px){
+	.swiper-pagination-bullet {
+		padding: 5px 10px;
+	}
+}
